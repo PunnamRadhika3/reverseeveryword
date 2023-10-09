@@ -24,5 +24,4 @@ rl.question('Enter a sentence: ', (inputSentence) => {
     const reversedSentence = reverseWords(inputSentence);
     console.log('Reversed Sentence: ' + reversedSentence);
     rl.close();
-    s.close();
 });
